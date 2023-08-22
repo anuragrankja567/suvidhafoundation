@@ -1,0 +1,131 @@
+/* to be added in the home page css */
+
+#testimonials {
+  background: #fef5e9;
+}
+
+/* change this body selector to a section by giving id */
+
+.lpco-testimonials {
+  position: relative;
+  margin-top: 30px;
+}
+
+.lp-testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+.lp-testimonials .owl-stage-outer {
+  padding: 30px 0;
+}
+
+.lp-testimonials .owl-nav {
+  display: none;
+}
+
+.lp-testimonials .owl-dots {
+  text-align: center;
+}
+
+.lp-testimonials .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid orange;
+  margin: 0 5px;
+}
+
+.lp-testimonials .owl-dots .active {
+  box-shadow: none;
+}
+
+.lp-testimonials .owl-dots .active span {
+  background: orange;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+
+.lp-testimonials .card {
+  background: #fff;
+  box-shadow: 0 8px 30px -7px #9b9a99;
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.lp-testimonials .card .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+}
+
+.lp-testimonials .card h5 {
+  color: #cf7500;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.lp-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666666;
+}
+
+.lp-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+}
+
+.lp-testimonials .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.lp-testimonials .center {
+  opacity: 1;
+}
+
+.lp-testimonials .center h5 {
+  font-size: 24px;
+}
+
+.lp-testimonials .center h5 span {
+  font-size: 20px;
+}
+
+.lp-testimonials .center .card-img-top {
+  max-width: 100%;
+  height: 120px;
+  width: 120px;
+}
+
+.lp-testimonials a {
+  color: #cf7500;
+}
+
+@media (max-width: 767px) {
+  .lp-testimonials {
+    margin-top: 20px;
+  }
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+

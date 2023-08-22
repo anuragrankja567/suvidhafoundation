@@ -1,0 +1,114 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* p,h1,body,section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+.testimonials {
+  padding: auto;
+  background-color: #fff7ec;
+}
+
+.testimonials h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #cf7500;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.testimonials h1::after {
+  content: '';
+  background: #cf7500;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.testimonials .row {
+  margin-top: 30px;
+}
+
+#testimonial-p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(118, 117, 117);
+  font-weight: 500;
+  font-size: larger;
+}
+
+.profile {
+  padding: 40px 90px 30px;
+  background-color: #ebe9e9;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.profile .left-img {
+  left: -20px;
+  position: absolute;
+  top: calc(50% - 85px);
+  border: 10px solid white;
+}
+
+.profile .right-img {
+  right: -20px;
+  position: absolute;
+  top: calc(50% - 85px);
+  border: 10px solid white;
+}
+
+.user {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  font-size: 25px;
+  margin-top: 15px;
+  color: #cf7500;
+}
+
+.profile:hover {
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+}
+
+.test-profession {
+  font-size: 20px;
+  color: #333;
+}
+
+.quotes {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  float: right;
+}
+
+.quotes::before {
+  content: '“';
+  font-size: 50px;
+  position: relative;
+  color: #ff9800;
+  line-height: 20px;
+  right: 5px;
+  bottom: -15px;
+}
+
+.quotes::after {
+  content: '”';
+  font-size: 50px;
+  position: relative;
+  color: #ff9800;
+  line-height: 10px;
+  bottom: -15px;
+  left: 5px;
+}
+

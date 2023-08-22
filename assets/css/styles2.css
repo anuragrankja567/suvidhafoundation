@@ -1,0 +1,41 @@
+body {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(247,247,247,1) 0%, rgba(253,126,20,1) 0%, rgba(255,199,119,1) 100%);
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: rgb(255, 251, 252);
+}
+
+.btn {
+  background: rgb(247, 123, 35);
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.nav-pills .nav-link {
+  color: #555;
+}
+
+.nav-pills .nav-link.active {
+  color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgb(247, 123, 35);
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+

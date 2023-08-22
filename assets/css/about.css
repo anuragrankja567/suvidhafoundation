@@ -1,0 +1,183 @@
+.icon1 {
+  font-size: 400%;
+  color: #e2d7d5;
+  margin: 10px;
+}
+
+.heading1 {
+  color: #e2d7d5;
+}
+
+.content1 {
+  color: #e2d7d5;
+}
+
+#promoheading {
+  font-size: 40px;
+}
+
+#donate {
+  max-width: 80%;
+}
+
+#values {
+}
+
+@media (min-width: 992px) {
+  #values {
+    background-size: 100%;
+  }
+}
+
+.boxvalue {
+  padding-top: 3%;
+}
+
+@media (min-width: 300px) {
+  #valuepadding {
+    background-color: #cf7500;
+    max-width: 80%;
+    padding: 5%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  #valuepadding {
+    margin-top: -180px;
+    flex-wrap: nowrap;
+  }
+}
+
+#ethics {
+  background-color: #feecd4;
+}
+
+#team {
+  background: url(../../assets/img/teamBG.jpg);
+  background-size: 100%;
+}
+
+#teamspace {
+  width: 35%;
+}
+
+.teamimage {
+  border-radius: 50%;
+  max-height: 100px;
+}
+
+.teamheading {
+  margin-top: 30px;
+}
+
+.teambox {
+  align-items: center;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#teamcont {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  #teamcont {
+    flex-wrap: nowrap;
+  }
+}
+
+#valuepadding {
+  background-image: linear-gradient(45deg, rgb(150,51,9), rgb(207,117,0), rgb(150,51,9));
+  max-width: 80%;
+  padding: 40px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+}
+
+.ethics-title {
+  font-size: 45px;
+  color: beige;
+  text-align: center;
+  margin: 70px;
+}
+
+.ethics-card {
+  position: relative;
+  max-width: 193px;
+  height: 180px;
+  background: linear-gradient(90deg, rgb(150,51,9), rgb(207,117,0), rgb(150,51,9));
+  margin: 47px 46px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.ethics-card h3 {
+  font-size: 20px;
+}
+
+.ethics-card p {
+  color: black;
+}
+
+.ethics-card:hover {
+  height: 300px;
+}
+
+.ethics-image {
+  position: relative;
+  width: 170px;
+  height: 150px;
+  background-color: white;
+  top: -40%;
+  left: -4px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.ethics-image img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.ethics-image i {
+  width: 180px;
+}
+
+.ethics-content {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.ethics-card:hover .ethics-content {
+  margin-top: 160px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.1s;
+  font-size: 15px;
+}
+
+#ethics-crd {
+  margin-left: 12%;
+}
+
+.ethics-content {
+  color: #fff0dd;
+}
+
